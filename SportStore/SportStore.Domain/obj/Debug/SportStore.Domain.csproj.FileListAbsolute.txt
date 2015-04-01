@@ -1,17 +1,23 @@
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.pdb
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.Helpers.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.Mvc.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.Razor.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.Helpers.xml
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.Mvc.xml
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.Razor.xml
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.xml
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\obj\Debug\SportStore.Domain.dll
-c:\users\anaza_000\documents\visual studio 2013\Projects\SportStore\SportStore.Domain\obj\Debug\SportStore.Domain.pdb
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.pdb
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\obj\Debug\SportStore.Domain.csprojResolveAssemblyReference.cache
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\obj\Debug\SportStore.Domain.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\obj\Debug\SportStore.Domain.pdb
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\SportStore.Domain.dll.config
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\EntityFramework.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\EntityFramework.xml
+C:\Users\anaza_000\Desktop\SportStore\Web\SportStore\SportStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
