@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="SportStore.UnitTests" Label="SportStore.UnitTests" Category="Project" />
+    <Node Id="Microsoft.AspNet.Mvc 5.0.0" Label="Microsoft.AspNet.Mvc 5.0.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.Razor 3.0.0" Label="Microsoft.AspNet.Razor 3.0.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.WebPages 3.0.0" Label="Microsoft.AspNet.WebPages 3.0.0" Category="Package" />
+    <Node Id="Microsoft.Web.Infrastructure 1.0.0.0" Label="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package" />
+    <Node Id="Moq 4.1.1309.1617" Label="Moq 4.1.1309.1617" Category="Package" />
+    <Node Id="Ninject 3.0.1.10" Label="Ninject 3.0.1.10" Category="Package" />
+    <Node Id="Ninject.MVC3 3.0.0.6" Label="Ninject.MVC3 3.0.0.6" Category="Package" />
+    <Node Id="Ninject.Web.Common 3.0.0.7" Label="Ninject.Web.Common 3.0.0.7" Category="Package" />
+    <Node Id="WebActivator 1.5" Label="WebActivator 1.5" Category="Package" />
+    <Node Id="SportStore.Domain" Label="SportStore.Domain" Category="Project" />
+    <Node Id="EntityFramework 6.1.2" Label="EntityFramework 6.1.2" Category="Package" />
+    <Node Id="Microsoft.AspNet.Mvc 5.0.0" Label="Microsoft.AspNet.Mvc 5.0.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.Razor 3.0.0" Label="Microsoft.AspNet.Razor 3.0.0" Category="Package" />
+    <Node Id="Microsoft.AspNet.WebPages 3.0.0" Label="Microsoft.AspNet.WebPages 3.0.0" Category="Package" />
+    <Node Id="Microsoft.Web.Infrastructure 1.0.0.0" Label="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package" />
+    <Node Id="SportStore.WebUI" Label="SportStore.WebUI" Category="Project" />
+    <Node Id="bootstrap 3.0.0" Label="bootstrap 3.0.0" Category="Package" />
+    <Node Id="EntityFramework 6.1.2" Label="EntityFramework 6.1.2" Category="Package" />
+    <Node Id="jQuery 1.10.2" Label="jQuery 1.10.2" Category="Package" />
+    <Node Id="Microsoft.AspNet.Mvc 5.2.3" Label="Microsoft.AspNet.Mvc 5.2.3" Category="Package" />
+    <Node Id="Microsoft.AspNet.Razor 3.2.3" Label="Microsoft.AspNet.Razor 3.2.3" Category="Package" />
+    <Node Id="Microsoft.AspNet.WebPages 3.2.3" Label="Microsoft.AspNet.WebPages 3.2.3" Category="Package" />
+    <Node Id="Microsoft.Web.Infrastructure 1.0.0.0" Label="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package" />
+    <Node Id="Modernizr 2.6.2" Label="Modernizr 2.6.2" Category="Package" />
+    <Node Id="Moq 4.1.1309.1617" Label="Moq 4.1.1309.1617" Category="Package" />
+    <Node Id="Ninject 3.0.1.10" Label="Ninject 3.0.1.10" Category="Package" />
+    <Node Id="Ninject.MVC3 3.0.0.6" Label="Ninject.MVC3 3.0.0.6" Category="Package" />
+    <Node Id="Ninject.Web.Common 3.0.0.7" Label="Ninject.Web.Common 3.0.0.7" Category="Package" />
+    <Node Id="WebActivator 1.5" Label="WebActivator 1.5" Category="Package" />
+  </Nodes>
+  <Links>
+    <Link Source="Microsoft.AspNet.Mvc 5.0.0" Target="Microsoft.AspNet.WebPages 3.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.Mvc 5.0.0" Target="Microsoft.AspNet.Razor 3.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.0.0" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.0.0" Target="Microsoft.AspNet.Razor 3.0.0" Category="Package Dependency" />
+    <Link Source="Ninject.MVC3 3.0.0.6" Target="Ninject 3.0.1.10" Category="Package Dependency" />
+    <Link Source="Ninject.MVC3 3.0.0.6" Target="Ninject.Web.Common 3.0.0.7" Category="Package Dependency" />
+    <Link Source="Ninject.Web.Common 3.0.0.7" Target="Ninject 3.0.1.10" Category="Package Dependency" />
+    <Link Source="Ninject.Web.Common 3.0.0.7" Target="WebActivator 1.5" Category="Package Dependency" />
+    <Link Source="WebActivator 1.5" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" />
+    <Link Source="SportStore.UnitTests" Target="Microsoft.AspNet.Mvc 5.0.0" Category="Installed Package" />
+    <Link Source="SportStore.UnitTests" Target="Moq 4.1.1309.1617" Category="Installed Package" />
+    <Link Source="SportStore.UnitTests" Target="Ninject.MVC3 3.0.0.6" Category="Installed Package" />
+    <Link Source="Microsoft.AspNet.Mvc 5.0.0" Target="Microsoft.AspNet.WebPages 3.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.Mvc 5.0.0" Target="Microsoft.AspNet.Razor 3.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.0.0" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.0.0" Target="Microsoft.AspNet.Razor 3.0.0" Category="Package Dependency" />
+    <Link Source="SportStore.Domain" Target="EntityFramework 6.1.2" Category="Installed Package" />
+    <Link Source="SportStore.Domain" Target="Microsoft.AspNet.Mvc 5.0.0" Category="Installed Package" />
+    <Link Source="Microsoft.AspNet.Mvc 5.2.3" Target="Microsoft.AspNet.WebPages 3.2.3" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.Mvc 5.2.3" Target="Microsoft.AspNet.Razor 3.2.3" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.2.3" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" />
+    <Link Source="Microsoft.AspNet.WebPages 3.2.3" Target="Microsoft.AspNet.Razor 3.2.3" Category="Package Dependency" />
+    <Link Source="Ninject.MVC3 3.0.0.6" Target="Ninject 3.0.1.10" Category="Package Dependency" />
+    <Link Source="Ninject.MVC3 3.0.0.6" Target="Ninject.Web.Common 3.0.0.7" Category="Package Dependency" />
+    <Link Source="Ninject.Web.Common 3.0.0.7" Target="Ninject 3.0.1.10" Category="Package Dependency" />
+    <Link Source="Ninject.Web.Common 3.0.0.7" Target="WebActivator 1.5" Category="Package Dependency" />
+    <Link Source="WebActivator 1.5" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" />
+    <Link Source="SportStore.WebUI" Target="bootstrap 3.0.0" Category="Installed Package" />
+    <Link Source="SportStore.WebUI" Target="EntityFramework 6.1.2" Category="Installed Package" />
+    <Link Source="SportStore.WebUI" Target="jQuery 1.10.2" Category="Installed Package" />
+    <Link Source="SportStore.WebUI" Target="Microsoft.AspNet.Mvc 5.2.3" Category="Installed Package" />
+    <Link Source="SportStore.WebUI" Target="Modernizr 2.6.2" Category="Installed Package" />
+    <Link Source="SportStore.WebUI" Target="Moq 4.1.1309.1617" Category="Installed Package" />
+    <Link Source="SportStore.WebUI" Target="Ninject.MVC3 3.0.0.6" Category="Installed Package" />
+  </Links>
+  <Categories>
+    <Category Id="Project" />
+    <Category Id="Package" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>
