@@ -10,6 +10,7 @@ using SportStore.Domain.Entities;
 
 namespace SportStore.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;
@@ -35,7 +36,7 @@ namespace SportStore.WebUI.Controllers
         {
             if (ModelState.IsValid)
             {
-               // repository.SaveProduct(product);
+                repository.SaveProduct(product);
                 TempData["message"] = string.Format("{0} has been saved", product.Name);
                 return RedirectToAction("Index");
             }
@@ -48,6 +49,17 @@ namespace SportStore.WebUI.Controllers
         public ViewResult Create()
         {
             return View("Edit", new Product());
+        }
+
+        [HttpPost]
+        public ActionResult Delete(int productId)
+        {
+            Product deleteProduct = repository.DeleteProduct(productId);
+            if (deleteProduct != null)
+            {
+                TempData["message"] = string.Format("{0} was deleted", deleteProduct.Name);
+            }
+            return RedirectToAction("Index");
         }
     }
 }

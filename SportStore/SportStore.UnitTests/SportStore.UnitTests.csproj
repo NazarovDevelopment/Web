@@ -91,10 +91,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\SportStore.Domain\SportStore.Domain.csproj">
       <Project>{acc4579c-98fb-4106-9150-73c504960a51}</Project>
       <Name>SportStore.Domain</Name>
@@ -103,6 +99,9 @@
       <Project>{77872232-375b-4dd5-97fe-8bb156ec665c}</Project>
       <Name>SportStore.WebUI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
